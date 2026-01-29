@@ -1,6 +1,6 @@
 mkdir grocery && cd grocery
 git init
-echo "<h1> Grocery</h1><ul><li>í½Ž Apples: $1.50</li><li>í½Œ Bananas: $0.75</li></ul>" > index.html
+echo "<h1> Grocery</h1><ul><li>Apples: $1.50</li><li>Bananas: $0.75</li></ul>" > index.html
 git add index.html
 git commit -m "feat: launch produce section - live store open"
 git checkout master
